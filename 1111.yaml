@@ -1,7 +1,7 @@
 # 必读！！！
 # 此版本没有做防泄露处理，如介意请使用另一个名字为configdns的版本
 # 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
-# 跑裸核用户请自行去掉下方控制面板模块的注释。
+
 # 机场订阅
 proxy-providers:
   Airport1:
@@ -33,14 +33,7 @@ profile:
   store-selected: true
   store-fake-ip: true
 
-# 为防止使用插件朋友遇到面板问题，我注释掉了此模块。
-#external-controller: 0.0.0.0:9090
-#secret: ""
-#external-ui: ui
-#external-ui-name: zashboard
-#external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
-
-# 嗅探（fakeip下其实可以不用嗅探）
+# 嗅探
 sniffer:
   enable: true
   sniff:
@@ -58,12 +51,8 @@ sniffer:
 # 入站
 tun:
   enable: true
-  # system/gvisor/mixed
   stack: mixed
   dns-hijack: ["any:53", "tcp://any:53"]
-  #使用nikki，混入全部不修改的情况，开启接口指定为nikki
-  #device: nikki
-  #使用仅内核自行修改下面三项为true
   auto-route: false
   auto-redirect: false
   auto-detect-interface: false
@@ -89,7 +78,7 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
  
-# 出站策略
+# 出站策略 - 严格限制最终显示的20个策略组
 proxy-groups:
   - {name: 🚀 默认代理, type: select, proxies: [🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
   - {name: 🤖 AI, type: select, proxies: [🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 自动选择, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
