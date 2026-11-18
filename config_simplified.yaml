@@ -123,6 +123,28 @@ rules:
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
   - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,ai,🤖 ChatGPT
+  # Gemini
+  - DOMAIN,gemini.google.com,🤖 ChatGPT
+  - DOMAIN,aistudio.google.com,🤖 ChatGPT
+  - DOMAIN,ai.google.dev,🤖 ChatGPT
+  - DOMAIN,generativelanguage.googleapis.com,🤖 ChatGPT
+  - DOMAIN,bard.google.com,🤖 ChatGPT
+  - DOMAIN,makersuite.google.com,🤖 ChatGPT
+  - DOMAIN,notebooklm.google.com,🤖 ChatGPT
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com,🤖 ChatGPT
+  # Google Antigravity
+  - DOMAIN,businessaicode.googleapis.com,🤖 ChatGPT
+  - DOMAIN,businessaicode.us.rep.googleapis.com,🤖 ChatGPT
+  - DOMAIN,businessaicode.eu.rep.googleapis.com,🤖 ChatGPT
+  - DOMAIN,businessaicode.mtls.googleapis.com,🤖 ChatGPT
+  - DOMAIN,aiplatform.googleapis.com,🤖 ChatGPT
+  - DOMAIN,aiplatform.us.rep.googleapis.com,🤖 ChatGPT
+  - DOMAIN,aiplatform.eu.rep.googleapis.com,🤖 ChatGPT
+  - DOMAIN,aiplatform.mtls.googleapis.com,🤖 ChatGPT
+  - DOMAIN,discoveryengine.googleapis.com,🤖 ChatGPT
+  - DOMAIN,us-discoveryengine.googleapis.com,🤖 ChatGPT
+  - DOMAIN,eu-discoveryengine.googleapis.com,🤖 ChatGPT
+  - DOMAIN,cloudcode-pa.googleapis.com,🤖 ChatGPT
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,google_domain,🍀 Google
   - RULE-SET,onedrive_domain,🐬 OneDrive

@@ -108,6 +108,28 @@ rules:
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
   - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,ai,🤖 AI
+  # Gemini
+  - DOMAIN,gemini.google.com,🤖 AI
+  - DOMAIN,aistudio.google.com,🤖 AI
+  - DOMAIN,ai.google.dev,🤖 AI
+  - DOMAIN,generativelanguage.googleapis.com,🤖 AI
+  - DOMAIN,bard.google.com,🤖 AI
+  - DOMAIN,makersuite.google.com,🤖 AI
+  - DOMAIN,notebooklm.google.com,🤖 AI
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com,🤖 AI
+  # Google Antigravity
+  - DOMAIN,businessaicode.googleapis.com,🤖 AI
+  - DOMAIN,businessaicode.us.rep.googleapis.com,🤖 AI
+  - DOMAIN,businessaicode.eu.rep.googleapis.com,🤖 AI
+  - DOMAIN,businessaicode.mtls.googleapis.com,🤖 AI
+  - DOMAIN,aiplatform.googleapis.com,🤖 AI
+  - DOMAIN,aiplatform.us.rep.googleapis.com,🤖 AI
+  - DOMAIN,aiplatform.eu.rep.googleapis.com,🤖 AI
+  - DOMAIN,aiplatform.mtls.googleapis.com,🤖 AI
+  - DOMAIN,discoveryengine.googleapis.com,🤖 AI
+  - DOMAIN,us-discoveryengine.googleapis.com,🤖 AI
+  - DOMAIN,eu-discoveryengine.googleapis.com,🤖 AI
+  - DOMAIN,cloudcode-pa.googleapis.com,🤖 AI
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,🚀 默认代理
   - RULE-SET,google_domain,🍀 Google
